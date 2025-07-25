@@ -20,7 +20,7 @@ This is simple CI/CD pipeline as Code with leveraging AWS native solutions. Any 
 ├── deployment
 │   └── appspec_template.yaml
 ├── terraform
-│   ├── demo
+│   ├── shangwellness
 │   │   ├── demo-service.tf
 │   │   ├── ecs.tf
 │   │   ├── main.tf
