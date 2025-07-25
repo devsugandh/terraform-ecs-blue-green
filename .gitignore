@@ -1,0 +1,40 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files (used for local development)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Core Terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Local .env or credentials
+.env
+*.pem
+*.key
+*.crt
+
+# macOS system files
+.DS_Store
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
